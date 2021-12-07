@@ -16,25 +16,28 @@ You can use one of the Lora32 boards:
 * TTGO T-Beam V0.7 (433MHz SX1278)
 * TTGO T-Beam V1 (433MHz SX1278)
 
-This boards cost around 30 Euros, they are very cheap but perfect for an LoRa iGate.
-Keep in minde: you need a 433MHz version!
+This boards cost around 35 Euros and includes a small 0.96" display
+Keep in mind: you need a 433MHz version!
 
 ## Compiling and configuration
 
-**There is a german [quick start](https://www.lora-aprs.info/docs/LoRa_APRS_iGate/quick-start-guide/) page! Take a look ;)**
-
-**There is a french [quick start](http://www.f5kmy.fr/spip.php?article509) page! Take a look ;)**
 
 ### How to compile
 
 The best success is to use PlatformIO (and it is the only platform where I can support you). 
 
 * Go to [PlatformIO](https://platformio.org/) download and install the IDE. 
-* If installed open the IDE, go to the left side and klick on 'extensions' then search for 'PatformIO' and install.
+* If installed open the IDE, go to the left side and click on 'extensions' then search for 'PatformIO' and install.
 * When installed click 'the ant head' on the left and choose import the project on the right.
 * Just open the folder and you can compile the Firmware.
 
 ### Configuration
+
+* Press the service button (the middle one) for more than 5 seconds and a WiFi hotspot will be alive (SSID: ESP32_APRS)
+* Connect to it with your smartphone or PC
+* After connection navigate to http://192.168.4.1 and the settings web page will show
+
+![TTGO T-Beam](images/general_settings.png)
 
 * You can find all nessesary settings to change for your configuration in **data/tracker.json**.
 * The `button_tx` setting enables manual triggering of the beacon using the middle button on the T-Beam.
