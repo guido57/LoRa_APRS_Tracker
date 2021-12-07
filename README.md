@@ -15,6 +15,8 @@ You can use one of the Lora32 boards:
 
 * TTGO T-Beam V0.7 (433MHz SX1278)
 * TTGO T-Beam V1 (433MHz SX1278)
+![TTGO T-Beam](images/smart_beacon_settings.png)
+![TTGO T-Beam](images/fixed_beacon_settings.png)
 
 This boards cost around 35 Euros and includes a small 0.96" display
 Keep in mind: you need a 433MHz version!
@@ -34,15 +36,14 @@ The best success is to use PlatformIO (and it is the only platform where I can s
 ### Configuration
 
 * Press the service button (the middle one) for more than 5 seconds and a WiFi hotspot will be alive (SSID: ESP32_APRS)
-* Connect to it with your smartphone or PC
+* Connect to it with your smartphone or PC using the password 12345678
 * After connection navigate to http://192.168.4.1 and the settings web page will show
 
 ![TTGO T-Beam](images/general_settings.png)
+![TTGO T-Beam](images/beacon_settings.png)
+![TTGO T-Beam](images/smart_beacon_settings.png)
+![TTGO T-Beam](images/fixed_beacon_settings.png)
 
-* You can find all nessesary settings to change for your configuration in **data/tracker.json**.
-* The `button_tx` setting enables manual triggering of the beacon using the middle button on the T-Beam.
-* To upload it to your board you have to do this via **Upload File System image** in PlatformIO!
-* To find the 'Upload File System image' click the PlatformIO symbol (the little alien) on the left side, choos your configuration, click on 'Platform' and search for 'Upload File System image'.
 
 ## LoRa iGate
 
