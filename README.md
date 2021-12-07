@@ -43,15 +43,15 @@ The best success is to use PlatformIO (and it is the only platform where I can s
 ## Beacon modes
 activate ony one!!!
 
-# plain beacon
+### Plain Beacon
 * These are the settings for a beacon transmitting the GPS coordinates every 20 minutes
 ![TTGO T-Beam](images/beacon_settings.png)
 
-# smart beacon
+### Smart Beacon
 * These are the settings for a beacon transmitting the GPS coordinates more frequently if the tracker moves at a higher speed 
 ![TTGO T-Beam](images/smart_beacon_settings.png)
 
-# fixed beacon
+### Fixed beacon
 * These are the settings for a beacon transmitting fixed coordinates (not using GPS) 
 ![TTGO T-Beam](images/fixed_beacon_settings.png)
 
