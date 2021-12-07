@@ -5,7 +5,7 @@ This LoRa APRS Tracker is derived from (https://github.com/lora-aprs/LoRa_APRS_T
 
 I added an Access Point and Captive Portal for easy configuration. 
 
-# LoRa APRS Tracker with Access Point for settings portal 
+# LoRa APRS Tracker with Access Point for real time configuration 
 
 ![TTGO T-Beam](images/block_diagram.png)
 
