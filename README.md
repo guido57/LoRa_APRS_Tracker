@@ -1,12 +1,24 @@
 
-# Fork 
+# About the fork 
 
 This LoRa APRS Tracker is derived from (https://github.com/lora-aprs/LoRa_APRS_Tracker) by [peterus](https://github.com/lora-aprs/LoRa_APRS_Tracker/commits?author=peterus)
 
 I added an Access Point and Captive Portal for easy configuration. 
 
-# LoRa APRS Tracker with Access Point for real time configuration 
+# Overview
 
+This is a LoRa APRS Tracker with Access Point for real time configuration.
+Its main use is to send a periodic beacon containing:
+- callsign
+- GPS or fixed coordinates
+- Altitude
+- Battery voltage and current
+
+Any received LoRa APRS packet, including the one repeated by a local digipeater, is displayed in the (very) small display.
+![TTGO T-Beam](images/display.png)
+
+
+# Block diagram
 ![TTGO T-Beam](images/block_diagram.png)
 
 # Supported boards
@@ -59,8 +71,3 @@ activate ony one!!!
 * Pleas note that you can save the settings or restore default settings
 ![TTGO T-Beam](images/PTT_settings_save.png)
 
-
-## LoRa iGate
-
-# fixed beacon
-Look at my other project: a [LoRa iGate](https://github.com/peterus/LoRa_APRS_iGate)
