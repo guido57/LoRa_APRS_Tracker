@@ -1,11 +1,15 @@
-# LoRa APRS Tracker
 
-The LoRa APRS Tracker will work with very cheep hardware which you can buy from amazon, ebay or aliexpress.
-Try it out and be part of the APRS network.
+# Fork 
+
+This LoRa APRS Tracker is derived from (https://github.com/lora-aprs/LoRa_APRS_Tracker) by [peterus](https://github.com/lora-aprs/LoRa_APRS_Tracker/commits?author=peterus)
+
+I added an Access Point and Captive Portal for easy configuration. 
+
+# LoRa APRS Tracker with Access Point for settings portal 
 
 ![TTGO T-Beam](pics/Tracker.png)
 
-## Supported boards
+# Supported boards
 
 You can use one of the Lora32 boards:
 
