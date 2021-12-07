@@ -19,10 +19,10 @@ You can use one of the Lora32 boards:
 This boards cost around 35 Euros and includes a small 0.96" display
 Keep in mind: you need a 433MHz version!
 
-## Compiling and configuration
+# Compiling and configuration
 
 
-### How to compile
+# How to compile
 
 The best success is to use PlatformIO (and it is the only platform where I can support you). 
 
@@ -31,12 +31,13 @@ The best success is to use PlatformIO (and it is the only platform where I can s
 * When installed click 'the ant head' on the left and choose import the project on the right.
 * Just open the folder and you can compile the Firmware.
 
-### Configuration
+# Configuration
 
 * Press the service button (the middle one) for more than 5 seconds and a WiFi hotspot will be alive (SSID: ESP32_APRS)
 * Connect to it with your smartphone or PC using the password 12345678
 * After connection navigate to http://192.168.4.1 and the settings web page will show
-# smart beacon
+
+# Access Point settings
 ![TTGO T-Beam](images/general_settings.png)
 
 ## Beacon modes
