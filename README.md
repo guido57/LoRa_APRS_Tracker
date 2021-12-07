@@ -7,7 +7,7 @@ I added an Access Point and Captive Portal for easy configuration.
 
 # LoRa APRS Tracker with Access Point for settings portal 
 
-![TTGO T-Beam](images/block diagram.png)
+![TTGO T-Beam](images/block_diagram.png)
 
 # Supported boards
 
