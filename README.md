@@ -35,10 +35,10 @@ Keep in mind: you need a 433MHz version!
 
 ## LILYGO TTGO
 Front view
-![TTGO T-Beam](images/LILYGO-TBEAM.png | width=200)
+![TTGO T-Beam](images/LILYGO-TBEAM.png){:height="700px" width="400px"}
 
 Rear view
-![TTGO T-Beam](images/LILYGO-TBEAM-GPS-antenna.png | width=200)
+![TTGO T-Beam](images/LILYGO-TBEAM.png){:height="700px" width="400px"}
 
 Please note that I changed the GPS antenna with a most performing one.
 
