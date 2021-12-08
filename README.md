@@ -48,7 +48,8 @@ The best success is to use PlatformIO (and it is the only platform where I can s
 * Connect to it with your smartphone or PC using the password 12345678
 * After connection navigate to http://192.168.4.1 and the settings web page will show
 
-# Access Point settings
+# Settings
+Be very careful when you change them!
 ![TTGO T-Beam](images/general_settings.png)
 
 ## Beacon modes
