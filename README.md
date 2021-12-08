@@ -52,7 +52,14 @@ The best success is to use PlatformIO (and it is the only platform where I can s
 ![TTGO T-Beam](images/general_settings.png)
 
 ## Beacon modes
-activate ony one!!!
+activate only one!!!
+- I suggest to start with fixed_beacon (that don't use GPS and send the location set)
+- Then try beacon (use GPS location). 
+- Finally you can try smart_beacon in a moving vehicle. 
+
+### Fixed beacon
+* These are the settings for a beacon transmitting fixed coordinates (not using GPS) 
+![TTGO T-Beam](images/fixed_beacon_settings.png)
 
 ### Plain Beacon
 * These are the settings for a beacon transmitting the GPS coordinates every 20 minutes
@@ -62,11 +69,7 @@ activate ony one!!!
 * These are the settings for a beacon transmitting the GPS coordinates more frequently if the tracker moves at a higher speed 
 ![TTGO T-Beam](images/smart_beacon_settings.png)
 
-### Fixed beacon
-* These are the settings for a beacon transmitting fixed coordinates (not using GPS) 
-![TTGO T-Beam](images/fixed_beacon_settings.png)
-
+## PTT (Push To Talk)
 * These are the settings for an external transmitter connected by its Push To Talk 
 * Pleas note that you can save the settings or restore default settings
 ![TTGO T-Beam](images/PTT_settings_save.png)
-
