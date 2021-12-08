@@ -41,7 +41,7 @@ Rear view
 ![TTGO T-Beam](images/LILYGO-TBEAM.png)
 Please note that I changed the GPS antenna with a most performing one.
 The original antenna
-![TTGO T-Beam](images/original gps antenna.png)
+![TTGO T-Beam](images/"original gps antenna".png)
 The most performing antenna
 ![TTGO T-Beam](images/largest gps antenna.png)
 
