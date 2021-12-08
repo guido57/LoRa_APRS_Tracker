@@ -1,10 +1,4 @@
 
-# About the fork 
-
-This LoRa APRS Tracker is derived from (https://github.com/lora-aprs/LoRa_APRS_Tracker) by [peterus](https://github.com/lora-aprs/LoRa_APRS_Tracker/commits?author=peterus)
-
-I added an Access Point and Captive Portal for easy configuration. 
-
 # Overview
 
 This is a LoRa APRS Tracker with Access Point for real time configuration.
@@ -17,6 +11,11 @@ Its main use is to send a periodic beacon containing:
 Any received LoRa APRS packet, including the one repeated by a local digipeater, is displayed in the (very) small display.
 ![TTGO T-Beam](images/display.png)
 
+## About the fork 
+
+This LoRa APRS Tracker is derived from (https://github.com/lora-aprs/LoRa_APRS_Tracker) by [peterus](https://github.com/lora-aprs/LoRa_APRS_Tracker/commits?author=peterus)
+
+I added an Access Point and Captive Portal for easy configuration. 
 
 # Block diagram
 ![TTGO T-Beam](images/block_diagram.png)
@@ -27,9 +26,9 @@ You can use one of the Lora32 boards:
 
 * TTGO T-Beam V0.7 (433MHz SX1278)
 * TTGO T-Beam V1 (433MHz SX1278)
-
 This boards cost around 35 Euros and includes a small 0.96" display
 Keep in mind: you need a 433MHz version!
+* Or you can build your own. See below
 
 # Compiling and configuration
 
