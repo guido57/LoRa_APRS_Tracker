@@ -25,13 +25,25 @@ I added an Access Point and Captive Portal for easy configuration.
 You can use one of the Lora32 boards:
 
 * TTGO T-Beam V0.7 (433MHz SX1278)
+The original software is designed for it, also, but I never tried.
+
 * TTGO T-Beam V1 (433MHz SX1278)
 This boards cost around 35 Euros and includes a small 0.96" display
 Keep in mind: you need a 433MHz version!
+
 * Or you can build your own. See below
 
 ## LILYGO TTGO
+Front view
 ![TTGO T-Beam](images/LILYGO-TBEAM.png)
+
+Rear view
+![TTGO T-Beam](images/LILYGO-TBEAM.png)
+Please note that I changed the GPS antenna with a most performing one.
+The original antenna
+![TTGO T-Beam](images/original gps antenna.png)
+The most performing antenna
+![TTGO T-Beam](images/largest gps antenna.png)
 
 
 # Compiling and configuration
