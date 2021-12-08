@@ -71,6 +71,7 @@ The best success is to use PlatformIO (and it is the only platform where I can s
 
 # Settings
 Be very careful when you change them!
+
 ![TTGO T-Beam](images/general_settings.png)
 
 ## Beacon modes
