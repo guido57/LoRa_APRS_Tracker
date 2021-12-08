@@ -30,7 +30,7 @@ This boards cost around 35 Euros and includes a small 0.96" display
 Keep in mind: you need a 433MHz version!
 * Or you can build your own. See below
 
-## LILYGO TBEAM
+## LILYGO TTGO
 ![TTGO T-Beam](images/LILYGO-TBEAM.png)
 
 
