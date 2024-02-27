@@ -1,3 +1,6 @@
+#This Repository is archived.
+#The new one is https://github.com/guido57/LoRa_APRS_Tracker_portal
+
 
 # Overview
 
